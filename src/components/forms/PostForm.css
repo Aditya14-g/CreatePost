@@ -1,0 +1,57 @@
+form {
+   
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+
+  }
+  
+  label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    
+  }
+  .username-box{
+    display: flex;
+    flex-direction: column;
+  }
+  #username{
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  input,textarea[type="text"] {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  input,textarea[type="text"]:focus {
+    border-color: #007bff;
+  }
+  
+  .create-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* width: 8rem; */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .display-name{
+    font-size: 12px;
+    margin-bottom: 25px;
+  }
+  

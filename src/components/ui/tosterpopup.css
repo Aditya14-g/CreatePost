@@ -1,0 +1,26 @@
+.toaster {
+    position: fixed;
+    bottom: 20px;
+    right: -300px; /* Initially hidden off-screen */
+    background-color: #f44336;
+    color: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transform: translateX(100%); /* Initially off-screen */
+    z-index: 1000;
+  }
+  
+  .toaster.show {
+    opacity: 1;
+    transform: translateX(-20px); /* Slide into view */
+  }
+  
+  .toaster.hide {
+    opacity: 0;
+    transform: translateX(100%); /* Slide out */
+  }
+  
